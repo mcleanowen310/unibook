@@ -1,0 +1,17 @@
+<div class="container" style="margin: 60px 0px 0px 20px">
+  <h1><%= country %></h1>
+
+  <% uni_data.forEach( (row)=> { %>
+  <div
+    style="
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 50px;
+    "
+  >
+    <h3><%= row.name %></h3>
+    <a class="button" href="<%= row.web_pages[0] %>" target="_blank">visit</a>
+  </div>
+  <% }); %>
+</div>

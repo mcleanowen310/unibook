@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.country-button {
+  padding: 10px 20px;
+  color: #007bff; /* Set text color to blue */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent; /* Remove background color */
+  font-weight: bold;
+}
+
+.country-button:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
